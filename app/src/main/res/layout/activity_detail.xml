@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2a2b32"
+    tools:context=".DetailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:id="@+id/detailBack"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="23dp"
+            android:text="Title"
+            android:textColor="@color/lavender"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/favbt"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="88dp"
+            android:clickable="true"
+            android:src="@drawable/fav_border" />
+
+        <ImageView
+            android:id="@+id/sharebt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:clickable="true"
+            android:padding="8dp"
+            android:src="@drawable/share" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/detailImage"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/uploadimg"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description :"
+            android:padding="8dp"
+            android:textColor="#d1d5db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Desc."
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+        android:id="@+id/detailMsal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Salary"
+        android:layout_gravity="center"
+        android:textColor="#d1d5db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text=" Highest Salary"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+
+        android:id="@+id/detailHsal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batch Placed "
+        android:layout_gravity="center"
+        android:textColor="#d1d5db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Batch placed"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+        android:id="@+id/detBP"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAAC Accreditaiton"
+        android:layout_gravity="center"
+        android:textColor="#d1d5db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="NAAC Accreditation"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+        android:id="@+id/detNAAC"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIRF Rank"
+        android:layout_gravity="center"
+        android:textColor="#d1d5db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="NIRF Rank"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/lavender"
+        android:id="@+id/detNIRF"/>
+
+</LinearLayout>
